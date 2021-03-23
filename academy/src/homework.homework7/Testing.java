@@ -10,7 +10,7 @@ public class Testing {
 
 	public static void main(String[] args) {
 		User user = new User("Максим", "Максимов", 18, LocalDate.of(1912, 02, 06), "admin", "password",
-				"administrator@mhotmail.com");
+				"administrator@hotmail.com");
 
 		Class<User> userClass = User.class;
 		Class<? super User> userSuperClass = userClass.getSuperclass();
